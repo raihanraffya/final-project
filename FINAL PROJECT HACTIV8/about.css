@@ -1,0 +1,221 @@
+
+
+.logo img {
+    display:block;
+    margin-left : auto;
+    margin-right : auto;
+    width: 300px;
+    
+    }
+    
+    body {
+        margin : 0px;
+        padding : 0px;
+    }
+    
+    .menu {
+        background-color: black;
+        text-align: center;
+    }
+    .menu ul {
+        display: block;
+        width:100%;
+        margin : 0px;
+        padding : 0px;
+        
+    }
+    
+    .menu ul li {
+        display:inline-block;
+        list-style: none;
+        width:100px;
+        color:white;
+        padding: 10px;
+        text-align: center;
+        font-family: Bradley Hand ITC;
+        font-size:20px;
+        position: relative;
+        
+    
+    }
+    
+    .content {
+        background-image: url("images/background.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding: 30px 0px;
+    }
+    
+    .box {
+        background-color: rgba(255, 255, 255, 0.5);
+        background-position: center;
+        display: block;
+        padding: 25px;
+        padding-top: 0px;
+        width: 50%;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+    .content-about {
+        font-size:20px;
+    }
+    
+    /* .box {
+        background-color: rgba(255, 255, 255, 0.5);
+        background-position: center;
+        display: inline-block;
+        padding: 25px;
+        padding-top: 0px;
+        top:30%;
+        left : 25%;
+        width: 50%;
+        position: absolute;
+    
+      
+    } */
+    
+    .box p {
+        font-size: 20px;
+        text-align:center;
+    }
+    
+    .box h3 {
+        text-align : center;
+        font-size : 30px;
+        margin-bottom : 0px;
+    }
+    
+    .footer {
+        background-color: black;
+        text-align: center;
+        position: relative;
+    }
+    .footer h2 {
+        color:white;
+        text-align:center;
+        margin-top : 0px;
+    }
+    .footer img {
+        /* margin-left : 40%; */
+        position:relative;
+    }
+    
+    .footer icon {
+        /* display: inline; */
+        position:relative;
+    }
+    
+    .footer p {
+        margin-left : 0px;
+        display : inline-block;
+        position: relative;
+        /* bottom:14%; */
+        color: white;
+        top: -15px;
+    }
+    .icon-line {
+        margin-left : 35%;
+        bottom:14.5%;
+        left : 15%;
+        position: absolute;
+        
+    }
+    
+    .icon-line p {
+        margin-top :25%;
+        margin-left : 10%;
+        position: absolute;
+        display : inline;
+        color : white;
+    }
+    
+    .footer>p {
+        color : white;
+        padding: 0px;
+        margin: 0px;
+        padding-top: 20px;
+    }
+    
+    .menu ul li ul {
+        display: none;
+    }
+    .menu ul li:hover ul {
+        padding:10px;
+        cursor:pointer;
+        display: block;
+        position: absolute;
+        background-color:black;
+        z-index: 2;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color:white;
+    }
+    .slider {
+        margin : 50px auto;
+        width : 150px;
+        height : 150px;
+    
+    }
+    
+    .slider > div {
+        position : absolute;
+    }
+    .slider img{
+        display : inline-block;
+        position : absolute;
+        top : -30px;
+        left : -20px;
+        margin-left : auto;
+        margin-right : auto;
+        width : 200px;
+        height : 200px;
+    
+    }
+    p.copyright {
+        font-size: 30px;
+    }
+    
+   
+    @media screen and (max-width:320px){
+        .box{
+            background-color: rgba(255, 255, 255, 0.5);
+            background-position: center;
+            display: inline-block;
+            padding: 25px;
+            padding-top: 0px;
+            left: 25%;
+            position: static;
+            width: 84%;
+        }
+        .content {
+            height: 742.875;
+            padding: 0px;
+        }
+        .menu ul li {
+            font-size : 15px;
+    
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* .menu:hover .dropdown-list {
+        
+        display:block;
+    
+    }
+    
+    .dropdown-menu {
+         
+         color: white;
+    }
+    .dropdown-list {
+        display:none;
+    } */
